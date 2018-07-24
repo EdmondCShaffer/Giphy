@@ -1,0 +1,36 @@
+
+
+
+#gif-placeholder{  
+    margin: 3px;
+    display:flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-evenly;
+}
+
+.image{
+    height: 190px;
+    width: 190px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.sport-btn{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.container{
+    background-color: #fff;
+	opacity: 0.8;
+    padding: 20px;
+    height: 600px;
+    width: 300px
+}
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi3X9F-vgjgBXtiWKmf_c7vJQH49-vkEvwSK_fH1OcvGaDORWs");
+    background: cover;
+    background-repeat: no-repeat;
+}
