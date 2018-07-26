@@ -4,7 +4,7 @@ var topics = ["Jiu-jitsu", "Judo", "Mma", "Boxing", "Football", "BasketBall", "B
 
 function displayGiphy() {
     var sport = $(this).attr("data-name");
-    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + sport + "&api_key=ShmCQ8Tb12t1UwqnlhJ79TmM2YsovaWM&limit=20";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + sport + "&api_key=ShmCQ8Tb12t1UwqnlhJ79TmM2YsovaWM&limit=10";
     $.ajax({
         url: queryURL,
         method: "GET"

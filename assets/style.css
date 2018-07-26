@@ -1,5 +1,8 @@
 
-
+h1{
+    font-family: cursive;
+    margin-bottom: 15px;
+}
 
 #gif-placeholder{  
     margin: 3px;
@@ -23,14 +26,15 @@
 }
 
 .container{
-    background-color: #fff;
-	opacity: 0.8;
+    margin-top: 30px;
+    background-color: gray;
+	opacity: 0.7;
     padding: 20px;
-    height: 600px;
-    width: 300px
+    height: 750px;
+    width: 400px
 }
 body{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi3X9F-vgjgBXtiWKmf_c7vJQH49-vkEvwSK_fH1OcvGaDORWs");
+    background-image: url("https://images.unsplash.com/photo-1487640228478-7a32e30a9e40?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1eb8b6f295d4447b593767c4b14c4e62&auto=format&fit=crop&w=1500&q=80");
     background: cover;
     background-repeat: no-repeat;
 }
